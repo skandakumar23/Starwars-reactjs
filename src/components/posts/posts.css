@@ -1,0 +1,19 @@
+.card-for-detail {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .card-for-detail {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-for-detail {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}

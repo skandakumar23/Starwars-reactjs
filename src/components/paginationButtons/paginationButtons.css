@@ -1,0 +1,43 @@
+.prev {
+  display: flex;
+  background: yellow;
+  padding: 10px 20px;
+  font-size: 2rem;
+  border-radius: 60px;
+  color: black;
+  float: left;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.prev:hover {
+  background: yellow;
+  box-shadow: 0 0 20px white;
+}
+
+.next {
+  display: flex;
+  background: yellow;
+  padding: 10px 20px;
+  font-size: 2rem;
+  border-radius: 60px;
+  color: black;
+  float: right;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.next:hover {
+  background: yellow;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 20px white;
+}
+
+@media (max-width: 768px) {
+  .prev,
+  .next {
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    margin-top: 10px;
+  }
+}

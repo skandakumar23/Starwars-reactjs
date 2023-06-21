@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: azure;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000200;
+  line-height: 1.5;
+}
+
+button {
+  background: yellow;
+  color: #000200;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 20px;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+
+button:hover {
+  background: yellow;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 18px white;
+  border: none;
+}
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  button {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+  }
+}

@@ -1,0 +1,22 @@
+.banner h1 {
+  color: transparent;
+  font-weight: 900;
+  font-size: 22em;
+  -webkit-text-stroke: 5px #e2f701;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 15em;
+    -webkit-text-stroke: 2px #e2f701;
+  }
+}
