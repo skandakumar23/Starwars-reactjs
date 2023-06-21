@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Starwars-reactjs/static/css/main.7bbfe99a.css",
+    "main.js": "/Starwars-reactjs/static/js/main.97035128.js",
+    "static/media/star6.png": "/Starwars-reactjs/static/media/star6.bc1ab7e2ca456dc656cb.png",
+    "static/media/star7.png": "/Starwars-reactjs/static/media/star7.f9f85339c5165462e202.png",
+    "static/media/star4.png": "/Starwars-reactjs/static/media/star4.d28d976643eb40b3ae28.png",
+    "static/media/star1.png": "/Starwars-reactjs/static/media/star1.23004bc20980b2398f51.png",
+    "static/media/star8.png": "/Starwars-reactjs/static/media/star8.95092c5ce7518c403921.png",
+    "static/media/star3.png": "/Starwars-reactjs/static/media/star3.609a0aeab41c15af65de.png",
+    "static/media/star2.png": "/Starwars-reactjs/static/media/star2.e628b4892971166af386.png",
+    "static/media/star5.png": "/Starwars-reactjs/static/media/star5.effa64f048102de8986e.png",
+    "index.html": "/Starwars-reactjs/index.html",
+    "main.7bbfe99a.css.map": "/Starwars-reactjs/static/css/main.7bbfe99a.css.map",
+    "main.97035128.js.map": "/Starwars-reactjs/static/js/main.97035128.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bbfe99a.css",
+    "static/js/main.97035128.js"
+  ]
+}
